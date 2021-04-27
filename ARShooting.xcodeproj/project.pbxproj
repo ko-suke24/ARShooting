@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		1455F0E426387F280041A55B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455F0E326387F280041A55B /* AppDelegate.swift */; };
-		1455F0E626387F280041A55B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455F0E526387F280041A55B /* ContentView.swift */; };
+		1455F0E626387F280041A55B /* ARTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455F0E526387F280041A55B /* ARTitleView.swift */; };
 		1455F0E826387F280041A55B /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 1455F0E726387F280041A55B /* Experience.rcproject */; };
 		1455F0EA26387F2B0041A55B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1455F0E926387F2B0041A55B /* Assets.xcassets */; };
 		1455F0ED26387F2B0041A55B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1455F0EC26387F2B0041A55B /* Preview Assets.xcassets */; };
 		1455F0F026387F2B0041A55B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1455F0EE26387F2B0041A55B /* LaunchScreen.storyboard */; };
+		1455F0FB263893E60041A55B /* GameInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455F0FA263893E60041A55B /* GameInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1455F0E026387F280041A55B /* ARShooting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARShooting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1455F0E326387F280041A55B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1455F0E526387F280041A55B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1455F0E526387F280041A55B /* ARTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTitleView.swift; sourceTree = "<group>"; };
 		1455F0E726387F280041A55B /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		1455F0E926387F2B0041A55B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1455F0EC26387F2B0041A55B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1455F0EF26387F2B0041A55B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1455F0F126387F2B0041A55B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1455F0FA263893E60041A55B /* GameInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				1455F0E326387F280041A55B /* AppDelegate.swift */,
-				1455F0E526387F280041A55B /* ContentView.swift */,
+				1455F0E526387F280041A55B /* ARTitleView.swift */,
 				1455F0E726387F280041A55B /* Experience.rcproject */,
 				1455F0E926387F2B0041A55B /* Assets.xcassets */,
 				1455F0EE26387F2B0041A55B /* LaunchScreen.storyboard */,
 				1455F0F126387F2B0041A55B /* Info.plist */,
 				1455F0EB26387F2B0041A55B /* Preview Content */,
+				1455F0FA263893E60041A55B /* GameInfo.swift */,
 			);
 			path = ARShooting;
 			sourceTree = "<group>";
@@ -145,9 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1455F0E626387F280041A55B /* ContentView.swift in Sources */,
+				1455F0E626387F280041A55B /* ARTitleView.swift in Sources */,
 				1455F0E426387F280041A55B /* AppDelegate.swift in Sources */,
 				1455F0E826387F280041A55B /* Experience.rcproject in Sources */,
+				1455F0FB263893E60041A55B /* GameInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
