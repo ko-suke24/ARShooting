@@ -27,4 +27,5 @@ enum GameState {
 
 final class GameInfo: ObservableObject {
     @Published var gameState: GameState = .menu
+    @Published var selfLife: Int = 10
 }
