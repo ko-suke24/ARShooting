@@ -9,20 +9,22 @@
 /* Begin PBXBuildFile section */
 		1455F0E426387F280041A55B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455F0E326387F280041A55B /* AppDelegate.swift */; };
 		1455F0E626387F280041A55B /* ARTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455F0E526387F280041A55B /* ARTitleView.swift */; };
-		1455F0E826387F280041A55B /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 1455F0E726387F280041A55B /* Experience.rcproject */; };
 		1455F0EA26387F2B0041A55B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1455F0E926387F2B0041A55B /* Assets.xcassets */; };
 		1455F0ED26387F2B0041A55B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1455F0EC26387F2B0041A55B /* Preview Assets.xcassets */; };
 		1455F0F026387F2B0041A55B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1455F0EE26387F2B0041A55B /* LaunchScreen.storyboard */; };
 		1455F0FB263893E60041A55B /* GameInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455F0FA263893E60041A55B /* GameInfo.swift */; };
 		1455F0FF2638A6D00041A55B /* ARShootingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455F0FE2638A6D00041A55B /* ARShootingView.swift */; };
 		1455F1022638B7C80041A55B /* ARShootingView+Coaching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455F1012638B7C80041A55B /* ARShootingView+Coaching.swift */; };
+		1455F1062638D0620041A55B /* GameStages.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 1455F1042638CE810041A55B /* GameStages.rcproject */; };
+		1455F10C2638DCCB0041A55B /* BulletSphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455F10B2638DCCB0041A55B /* BulletSphere.swift */; };
+		1455F1112638DDAC0041A55B /* HitSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1455F10F2638DDAC0041A55B /* HitSound.wav */; };
+		1455F1122638DDAC0041A55B /* ShootSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1455F1102638DDAC0041A55B /* ShootSound.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1455F0E026387F280041A55B /* ARShooting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARShooting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1455F0E326387F280041A55B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1455F0E526387F280041A55B /* ARTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTitleView.swift; sourceTree = "<group>"; };
-		1455F0E726387F280041A55B /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		1455F0E926387F2B0041A55B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1455F0EC26387F2B0041A55B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1455F0EF26387F2B0041A55B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +32,10 @@
 		1455F0FA263893E60041A55B /* GameInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInfo.swift; sourceTree = "<group>"; };
 		1455F0FE2638A6D00041A55B /* ARShootingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARShootingView.swift; sourceTree = "<group>"; };
 		1455F1012638B7C80041A55B /* ARShootingView+Coaching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARShootingView+Coaching.swift"; sourceTree = "<group>"; };
+		1455F1042638CE810041A55B /* GameStages.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = GameStages.rcproject; sourceTree = "<group>"; };
+		1455F10B2638DCCB0041A55B /* BulletSphere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulletSphere.swift; sourceTree = "<group>"; };
+		1455F10F2638DDAC0041A55B /* HitSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HitSound.wav; sourceTree = "<group>"; };
+		1455F1102638DDAC0041A55B /* ShootSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ShootSound.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,15 +68,17 @@
 		1455F0E226387F280041A55B /* ARShooting */ = {
 			isa = PBXGroup;
 			children = (
+				1455F10A2638DC920041A55B /* ModelEntity */,
 				1455F0FD2638A6AE0041A55B /* ARShootingView */,
 				1455F0E326387F280041A55B /* AppDelegate.swift */,
 				1455F0E526387F280041A55B /* ARTitleView.swift */,
-				1455F0E726387F280041A55B /* Experience.rcproject */,
 				1455F0E926387F2B0041A55B /* Assets.xcassets */,
 				1455F0EE26387F2B0041A55B /* LaunchScreen.storyboard */,
 				1455F0F126387F2B0041A55B /* Info.plist */,
 				1455F0EB26387F2B0041A55B /* Preview Content */,
 				1455F0FA263893E60041A55B /* GameInfo.swift */,
+				1455F1042638CE810041A55B /* GameStages.rcproject */,
+				1455F10E2638DDAC0041A55B /* Resource */,
 			);
 			path = ARShooting;
 			sourceTree = "<group>";
@@ -90,6 +98,23 @@
 				1455F1012638B7C80041A55B /* ARShootingView+Coaching.swift */,
 			);
 			path = ARShootingView;
+			sourceTree = "<group>";
+		};
+		1455F10A2638DC920041A55B /* ModelEntity */ = {
+			isa = PBXGroup;
+			children = (
+				1455F10B2638DCCB0041A55B /* BulletSphere.swift */,
+			);
+			path = ModelEntity;
+			sourceTree = "<group>";
+		};
+		1455F10E2638DDAC0041A55B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1455F10F2638DDAC0041A55B /* HitSound.wav */,
+				1455F1102638DDAC0041A55B /* ShootSound.wav */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +176,8 @@
 			files = (
 				1455F0F026387F2B0041A55B /* LaunchScreen.storyboard in Resources */,
 				1455F0ED26387F2B0041A55B /* Preview Assets.xcassets in Resources */,
+				1455F1122638DDAC0041A55B /* ShootSound.wav in Resources */,
+				1455F1112638DDAC0041A55B /* HitSound.wav in Resources */,
 				1455F0EA26387F2B0041A55B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,9 +189,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1455F10C2638DCCB0041A55B /* BulletSphere.swift in Sources */,
+				1455F1062638D0620041A55B /* GameStages.rcproject in Sources */,
 				1455F0E626387F280041A55B /* ARTitleView.swift in Sources */,
 				1455F0E426387F280041A55B /* AppDelegate.swift in Sources */,
-				1455F0E826387F280041A55B /* Experience.rcproject in Sources */,
 				1455F0FB263893E60041A55B /* GameInfo.swift in Sources */,
 				1455F1022638B7C80041A55B /* ARShootingView+Coaching.swift in Sources */,
 				1455F0FF2638A6D00041A55B /* ARShootingView.swift in Sources */,
